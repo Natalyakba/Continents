@@ -1,0 +1,232 @@
+<!DOCTYPE html>
+    <html>
+        <head>
+            <title>Тестирование</title>
+            <link rel="stylesheet" href="proba.css">
+            <meta charset="UTF-8" />
+        </head>
+        <body>
+
+            <div class="container">
+
+                <a class="item item_1" href="Евразия.html"> Евразия </a>
+                <a class="item item_2" href="Африка.html"> Африка </a>
+                <a class="item item_3" href="Северная Америка.html"> Северная Америка </a>
+                <a class="item item_4" href="Австралия.html">Австралия</a>
+                <a class="item item_5" href="Антарктида.html">Антарктида</a>
+                <a class="item item_6" href="Южная Америка.html">Южная Америка</a>
+
+                <a class="item item_7" href="Евразия.html#фауна Евразия">Фауна</a>
+                <a class="item item_8" href="Евразия.html#флора Евразия">Флора</a>
+                <a class="item item_9" href="Африка.html#фауна Африка">Фауна</a>
+                <a class="item item_10" href="Африка.html#флора Африка">Флора</a>
+                <a class="item item_11" href="Северная Америка.html#животные Сев Америка">Фауна</a>
+                <a class="item item_12" href="Северная Америка.html#флора Сев Америка">Флора</a>
+
+                <a class="item item_13" href="Австралия.html#фауна Австралия">Фауна</a>
+                <a class="item item_14" href="Австралия.html#флора Австралия">Флора</a>
+                <a class="item item_15" href="Антарктида.html#фауна Антарктида">Фауна</a>
+                <a class="item item_16" href="Антарктида.html#флора Антарктида">Флора</a>
+                <a class="item item_17" href="Южная Америка.html#фауна Южная Америка">Фауна</a>
+                <a class="item item_18" href="Южная Америка.html#флора Южная Америка">Флора</a>
+        
+            </div>
+            <h1>Проверьте свои знания географии. Желаем удачи!</h1>
+            <form name="quiz" action="javascript:check();" class="quizform">
+                <div class="quizsection">
+                    <h2>1. Какой материк почти полностью покрыт снегом и льдом</h2>
+
+                        <input name="q1" value="no" id="value1" type="radio" checked="checked" /> Африка <br>
+                        <input name="q1" value="no" id="value2" type="radio" /> Северная Америка<br>
+                        <input name="q1" value="no" id="value3" type="radio" /> Южная Америка<br>
+                        <input name="q1" value="yes" id="value4" type="radio" /> Антарктида<br>
+                        <input name="q1" value="no" id="value5" type="radio" /> Австралия<br>
+                        <input name="q1" value="no" id="value6" type="radio" /> Евразия<br>
+                </div>
+
+                <div class="quizsection">
+                    <h2>2. На каком материке находится пустыня Сахара </h2>
+
+                    <input name="q2" value="no" id="value1" type="radio" checked="checked" /> Южная Америка<br>
+                    <input name="q2" value="yes" id="value2" type="radio" /> Африка<br>
+                    <input name="q2" value="no" id="value3" type="radio" /> Австралия<br>
+                    <input name="q2" value="no" id="value4" type="radio" /> Евразия<br>
+                </div>
+
+                <div class="quizsection">
+
+                    <h2>3. Какое животное встречается только в Австралии</h2>
+
+                        <input name="q3" value="no" id="value1" type="radio" checked="checked" /> Пингвин<br>
+                        <input name="q3" value="no" id="value2" type="radio" /> Чубака<br>
+                        <input name="q3" value="yes" id="value3" type="radio" /> Кенгуру<br>
+                        <input name="q3" value="no" id="value4" type="radio" /> Тигр<br>
+                        <input name="q3" value="no" id="value5" type="radio" /> Лошадь<br>
+                </div>
+
+                <div class="quizsection">
+
+                    <h2>4. Где находится крупнейшая река на Земле по длине - Амазонка</h2>
+
+                        <input name="q4" value="no" id="value1" type="radio" checked="checked" /> Африка<br>
+                        <input name="q4" value="no" id="value2" type="radio" /> Евразия<br>
+                        <input name="q4" value="no" id="value3" type="radio" /> Северная Америка<br>
+                        <input name="q4" value="yes" id="value4" type="radio" /> Южная Америка<br>
+                        <input name="q4" value="no" id="value5" type="radio" /> Антарктида<br>
+               </div>
+
+                <div class="quizsection">
+
+                    <h2>5. На каком материке находится озеро Виктория</h2>
+
+                        <input name="q5" value="no" id="value1" type="radio" checked="checked" /> Австралия<br>
+                        <input name="q5" value="no" id="value2" type="radio" /> Евразия<br>
+                        <input name="q5" value="yes" id="value3" type="radio" /> Африка<br>
+                        <input name="q5" value="no" id="value4" type="radio" /> Антарктида<br>
+                        <input name="q5" value="no" id="value5" type="radio" /> Северная Америка<br>
+                </div>
+
+                <div class="quizsection">
+
+                    <h2>6. Где располагаются Анды</h2>
+
+                        <input name="q6" value="no" id="value1" type="radio" checked="checked" /> Африка<br>
+                        <input name="q6" value="no" id="value2" type="radio" /> Северная Америка<br>
+                        <input name="q6" value="yes" id="value3" type="radio" /> Южная Америка<br>
+                        <input name="q6" value="no" id="value4" type="radio" /> Антарктида<br>
+                        <input name="q6" value="no" id="value5" type="radio" /> Австралия<br>
+                        <input name="q6" value="no" id="value6" type="radio" /> Евразия<br>
+                </div>
+
+                <div class="quizsection">
+
+                    <h2>7. Где растет Кергеленская капуста</h2>
+
+                        <input name="q7" value="no" id="value1" type="radio" checked="checked" /> Африка<br>
+                        <input name="q7" value="no" id="value2" type="radio" /> Северная Америка<br>
+                        <input name="q7" value="no" id="value3" type="radio" /> Южная Америка<br>
+                        <input name="q7" value="yes" id="value4" type="radio" /> Антарктида<br>
+                        <input name="q7" value="no" id="value5" type="radio" /> Австралия<br>
+                        <input name="q7" value="no" id="value6" type="radio" /> Евразия<br>
+                </div>
+
+                <div class="quizsection">
+
+                    <h2>8. Где находится озеро Титикака</h2>
+
+                        <input name="q8" value="no" id="value1" type="radio" checked="checked" /> Африка<br>
+                        <input name="q8" value="no" id="value2" type="radio" /> Северная Америка<br>
+                        <input name="q8" value="yes" id="value3" type="radio" /> Южная Америка<br>
+                        <input name="q8" value="no" id="value4" type="radio" /> Антарктида<br>
+                        <input name="q8" value="no" id="value5" type="radio" /> Австралия<br>
+                        <input name="q8" value="no" id="value6" type="radio" /> Евразия<br>
+                </div>
+
+                <div class="quizsection">
+
+                    <h2>9. На каком материке более 65 видов клещей</h2>
+
+                        <input name="q9" value="no" id="value1" type="radio" checked="checked" /> Африка<br>
+                        <input name="q9" value="no" id="value2" type="radio" /> Северная Америка<br>
+                        <input name="q9" value="no" id="value3" type="radio" /> Южная Америка<br>
+                        <input name="q9" value="yes" id="value4" type="radio" /> Антарктида<br>
+                        <input name="q9" value="no" id="value5" type="radio" /> Австралия<br>
+                        <input name="q9" value="value1" id="value6" type="radio" /> Евразия<br>
+                </div>
+
+                <div class="quizsection">
+
+                    <h2>10. На каком материке растет самый большой и зловонный цветок в мире – рафлезия</h2>
+
+                        <input name="q10" value="no" id="value1" type="radio" checked="checked" /> Африка<br>
+                        <input name="q10" value="no" id="value2" type="radio" /> Северная Америка<br>
+                        <input name="q10" value="no" id="value3" type="radio" /> Южная Америка<br>
+                        <input name="q10" value="no" id="value4" type="radio" /> Антарктида<br>
+                        <input name="q10" value="no" id="value5" type="radio" /> Австралия<br>
+                        <input name="q10" value="yes" id="value6" type="radio" /> Евразия<br>
+                </div>
+                
+                <div align="center"><br>
+
+                    <input type="submit" class="button" value="Проверить"  /> 
+                    <input type="reset" class="button" value="Сбросить результаты"  />
+                </div><br>
+
+            </form>
+            
+            <br>
+            
+            <div class="floor"> 
+                <a href="index.html"><img src="dom.png" alt="На главную страницу кнопка" width="30" height="30" title="На главную страницу"></a>
+                <a href="#top"><img src="vverh.png" alt="Наверх кнопка" width="30" height="30" title="Наверх"></a>
+            </div>
+
+            <script type="text/javascript">
+            
+                var result;
+                
+                function check()
+                {
+
+                    var yes = 0;
+                    var no = 0;
+                                        
+                    // result = "";
+            
+                    var choice;
+                    
+                    for (var n = 1; n <= 10; n++)
+                    {
+                    
+                        var q = document.forms['quiz'].elements['q'+n]; // берем вопрос из формы
+            
+                        for (var i = 0; i < q.length; i++)  {// q.length - определяем длину массива, так как у нас гдето 6 вариантов ответов а где-то меньше
+                            if (q[i].checked) { // ищем нажатую кнопку
+                            choice = q[i].value; 
+                            }
+                        }
+                                    
+                        if (choice == "yes") {
+                            yes++;
+                        }
+                        
+                        if (choice == "no") {
+                            no++;
+                        }
+                       
+                    }
+
+                    if (yes==10) {
+                        alert("Вы молодец! Все ответы правильные!");
+                    }
+
+                    else if (yes==0) {
+                        alert("Может вы не выбрали ответы? Нет верных результатов");
+                    }
+                    
+                    else if (0 < yes < 6) {
+                        alert("Количество правильных ответов: " + yes + "\nПостарайтесь дать больше верных ответов для положительной оценки");
+                    }
+
+                    else if (5< yes < 8) {
+                        alert("Количество правильных ответов: " + yes + "\nНеплохо, но можно и лучше :)");
+                    }
+
+                    else if (7 < yes < 10) {
+                        alert("Количество правильных ответов: " + yes + "\n Еще немного стараний до отличной оценки!");
+                    }
+
+                    else {
+                        alert("Количество правильных ответов: " + yes);
+                    }
+                    
+                    
+                }
+            
+            </script>
+
+        </body>
+    </html> 
+
+
+ 
